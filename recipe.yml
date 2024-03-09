@@ -1,0 +1,19 @@
+name: 'Saplings'
+description: 'Modern Drupal starter recipe.'
+type: 'Site'
+install:
+  - lite_youtube_embed
+config:
+  actions:
+    core.entity_view_display.media.remote_video.default:
+      setComponent:
+        name: field_media_oembed_video
+        options:
+          type: lite_youtube_embed
+          label: hidden
+          settings:
+            max_width: 0
+            max_height: 0
+          third_party_settings: {  }
+          weight: 0
+          region: content

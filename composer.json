@@ -1,0 +1,17 @@
+{
+    "name": "kanopi/remote-video-youtube-lite",
+    "description": "Configures Remote Video Media entity to use Lite YouTube Embed.",
+    "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Jim Birch",
+            "homepage": "https://kanopi.com",
+            "role": "Maintainer"
+        }
+    ],
+    "require": {
+        "drupal/lite_youtube_embed": "*",
+        "npm-asset/lite-youtube-embed": "*"
+    }
+}
