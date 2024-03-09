@@ -1,5 +1,5 @@
-name: 'Saplings'
-description: 'Modern Drupal starter recipe.'
+name: 'Remote Video YouTube Lite Embed'
+description: 'Configures Remote Video Media entity to use Lite YouTube Embed.'
 type: 'Site'
 install:
   - lite_youtube_embed
